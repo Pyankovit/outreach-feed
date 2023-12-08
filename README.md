@@ -1,6 +1,5 @@
 # Activity Feed App
 
-![Activity Feed App]
 
 ## Overview
 
