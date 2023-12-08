@@ -21,38 +21,6 @@ This project is a React application that implements an Activity Feed based on th
 - Tailwind CSS
 - Jest (for testing)
 
-### Usage
-
-To run the app, use the following command:
-
-```bash
-npm run dev
-```
-
-To run tests, use the following command:
-
-```bash
-npm run test
-```
-
-### Implementation Details
-
-- Written in React with TypeScript for type-safe development
-- Utilizes Vite for fast and efficient development
-- Styled with Tailwind CSS for a modern and responsive UI
-- Includes Jest for unit testing, ensuring code reliability
-- Follows best practices for clean code and maintainability
-
-### Submission Details
-
-The solution has been submitted to the [Frontend Ukraine Outreach](mailto:frontend-ukraine@outreach.io) email address with a link to the GitHub repository.
-
-### Additional Notes
-
-- Completed within the expected duration of 50 minutes to 2 hours
-- Focuses on code structure and functionality over pixel perfection
-- Hardcoded the current user and contact (You and Milton Romaguera) as specified
-
 ## Running the App
 
 1. Clone the repository:
@@ -92,6 +60,31 @@ The solution has been submitted to the [Frontend Ukraine Outreach](mailto:fronte
    ```bash
    npm run test
    ```
+
+
+To run tests, use the following command:
+
+```bash
+npm run test
+```
+
+### Implementation Details
+
+- Written in React with TypeScript for type-safe development
+- Utilizes Vite for fast and efficient development
+- Styled with Tailwind CSS for a modern and responsive UI
+- Includes Jest for unit testing, ensuring code reliability
+- Follows best practices for clean code and maintainability
+
+### Submission Details
+
+The solution has been submitted to the [Frontend Ukraine Outreach](mailto:frontend-ukraine@outreach.io) email address with a link to the GitHub repository.
+
+### Additional Notes
+
+- Completed within the expected duration of 50 minutes to 2 hours
+- Focuses on code structure and functionality over pixel perfection
+- Hardcoded the current user and contact (You and Milton Romaguera) as specified
 
 Feel free to reach out for any additional information or clarification. Thank you for considering this submission!
 
