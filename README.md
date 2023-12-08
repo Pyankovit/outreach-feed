@@ -1,44 +1,103 @@
-# React + TypeScript + Vite + Tailwind + Jest
+# Activity Feed App
 
-To run this app type 
-```js
+![Activity Feed App]
+
+## Overview
+
+This project is a React application that implements an Activity Feed based on the provided specifications. It includes a note input field, timestamped notes with user and type properties, and an activity feed displaying notes in chronological order.
+
+### Features
+
+- Note input field for plaintext input
+- Timestamped notes with user and type (Message/Phone/Coffee/Beer/Meeting Note)
+- Activity feed displaying notes in chronological order
+- Display of user, relative timestamp, and note content
+- Delete functionality for each note
+
+### Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Jest (for testing)
+
+### Usage
+
+To run the app, use the following command:
+
+```bash
 npm run dev
 ```
-To run tests type 
-```js 
+
+To run tests, use the following command:
+
+```bash
 npm run test
 ```
 
+### Implementation Details
 
-Activity Feed
-- Create an Activity Feed app per the designs:
+- Written in React with TypeScript for type-safe development
+- Utilizes Vite for fast and efficient development
+- Styled with Tailwind CSS for a modern and responsive UI
+- Includes Jest for unit testing, ensuring code reliability
+- Follows best practices for clean code and maintainability
 
-Features
-- A note input field that allows for plaintext input
-- The notes have the following properties
-- Timestamp
-- User that created it
-- Type (Message/Phone/Coffee/Beer/Meeting Note)
-- There should be an activity feed that lists all of the notes in chronological order
-- It should display:
-- User that wrote the note
-- Relative Timestamp
-The note
-- It should have the following actions:
-Delete
-- A good project is sufficiently covered by unit tests
+### Submission Details
 
-Implementation notes
-- Write regular code with everything you would use at work
-- Expected duration is 50 mins - 2 hours
+The solution has been submitted to the [Frontend Ukraine Outreach](mailto:frontend-ukraine@outreach.io) email address with a link to the GitHub repository.
 
-The current user (You) and the contact (Milton Romaguera) can be passed as properties that are hardcoded at the upper layer
-- Do not write any backend, store data as a local state
-- Focus more on code structure rather than being pixel perfect
-- Use TypeScript and React.
-- Anything that can be found on npmjs.com is allowed
+### Additional Notes
 
+- Completed within the expected duration of 50 minutes to 2 hours
+- Focuses on code structure and functionality over pixel perfection
+- Hardcoded the current user and contact (You and Milton Romaguera) as specified
 
-Submission
-- Send an email to frontend-ukraine@outreach.io with a link to a public github repository. Please delete the repository after the interview process is fully concluded.
+## Running the App
 
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Pyankovit/outreach-feed.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd outreach-feed
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the app:
+
+   ```bash
+   npm run dev
+   ```
+
+## Running Tests
+
+1. Ensure dependencies are installed:
+
+   ```bash
+   npm install
+   ```
+
+2. Run tests:
+
+   ```bash
+   npm run test
+   ```
+
+Feel free to reach out for any additional information or clarification. Thank you for considering this submission!
+
+Best regards,
+
+[Your Full Name]
+[Your Contact Information]
+[Link to LinkedIn or Portfolio, if applicable]
