@@ -96,7 +96,4 @@ The solution has been submitted to the [Frontend Ukraine Outreach](mailto:fronte
 Feel free to reach out for any additional information or clarification. Thank you for considering this submission!
 
 Best regards,
-
-[Your Full Name]
-[Your Contact Information]
-[Link to LinkedIn or Portfolio, if applicable]
+Oleh Piankov
