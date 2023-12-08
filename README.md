@@ -1,30 +1,44 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Tailwind + Jest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
+To run this app type 
 ```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+npm run dev
+```
+To run tests type 
+```js 
+npm run test
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+Activity Feed
+- Create an Activity Feed app per the designs:
+
+Features
+- A note input field that allows for plaintext input
+- The notes have the following properties
+- Timestamp
+- User that created it
+- Type (Message/Phone/Coffee/Beer/Meeting Note)
+- There should be an activity feed that lists all of the notes in chronological order
+- It should display:
+- User that wrote the note
+- Relative Timestamp
+The note
+- It should have the following actions:
+Delete
+- A good project is sufficiently covered by unit tests
+
+Implementation notes
+- Write regular code with everything you would use at work
+- Expected duration is 50 mins - 2 hours
+
+The current user (You) and the contact (Milton Romaguera) can be passed as properties that are hardcoded at the upper layer
+- Do not write any backend, store data as a local state
+- Focus more on code structure rather than being pixel perfect
+- Use TypeScript and React.
+- Anything that can be found on npmjs.com is allowed
+
+
+Submission
+- Send an email to frontend-ukraine@outreach.io with a link to a public github repository. Please delete the repository after the interview process is fully concluded.
+
