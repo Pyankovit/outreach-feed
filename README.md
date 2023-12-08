@@ -62,12 +62,6 @@ This project is a React application that implements an Activity Feed based on th
    ```
 
 
-To run tests, use the following command:
-
-```bash
-npm run test
-```
-
 ### Implementation Details
 
 - Written in React with TypeScript for type-safe development
